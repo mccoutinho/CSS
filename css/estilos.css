@@ -1,0 +1,492 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #1A9AF5 !important;
+	font-family: 'Press Start 2P', cursive;
+	color: white;
+	overflow-x: hidden;
+    width: 93%;
+}
+
+img {
+	max-width: 100%;
+  	height: auto;
+}
+
+p{
+	font-family: 'Press Start 2P', cursive;
+}
+
+h3{
+	letter-spacing: 1px;
+}
+
+@font-face {
+	font-family: "Gameplay";
+	src: url("../font/Gameplay.ttf");
+	src:
+	url("../font/Gameplay.ttf") format("ttf");
+}
+
+/* niveis */
+#stats{
+	font-family: 'Press Start 2P', cursive;
+	display: inline-flex;
+
+	width: 100%;
+}
+
+#vida{
+	position: fixed;
+	width: 20rem;
+	height: 3rem;
+	background-color: red;
+	color: white;
+	font-size: 13pt;
+}
+
+#tempo{
+	margin: auto;
+	width: 5rem;
+	height: 5rem;
+	margin-top: 0px;
+	font-size: 30pt;
+	color: white;
+}
+
+#energia{
+	position: fixed;
+	right: 0px;
+	width: 15rem;
+	height: 8rem;
+	background-color: black;
+}
+
+#som{
+	position: fixed;
+	right: 7rem;
+	height: 2rem;
+	width: 2rem;
+	background-color: yellow;
+	top: 10rem;
+}
+
+#jogo{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	background-color: brown;
+}
+
+
+/* main menu */
+	
+#main-menu{
+	font-family: 'Press Start 2P', cursive;
+	display: inline-block;
+	text-align: center;
+	left: 50%;
+	position: fixed;
+	top:50%;
+	margin-top: -50px;
+	margin-left: -150px;
+}
+
+
+
+
+.button-menu {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.button-menu a {
+	color: white;
+	font-size: 15pt;
+	text-decoration: none;
+}
+
+#som-icon{
+	float: left;
+	position: fixed;
+	left: 45%;
+	bottom: 0%;
+
+}
+
+#icone-som{
+	max-width: 50%;
+	height: auto;
+}
+
+
+
+#logo-img{
+	height: 40%;
+	width: 40%;
+	margin-top: 2rem;
+}
+
+#imgs{
+	display: inline-flex;
+}
+
+#personagem{
+	float: left;
+	width: 100%;
+	height: 100%;
+	margin-top: 15%;
+	margin-left: 5rem;
+}
+
+#stain{
+	float: right;
+	width: 100%;
+	height: 100%;
+	margin-top: 15%;
+	margin-right: 5rem;
+}
+
+.nes-btn{
+	color: #212529 !important;
+}
+
+/* about */
+.slide-left {
+	-webkit-animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate-reverse both;
+	        animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate-reverse both;
+}
+@-webkit-keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
+  }
+}
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
+  }
+}
+
+.back{
+	float: right;
+	margin-right: 2rem;
+	margin-top: -4rem;
+	display: inline-flex;
+	position: relative;
+	width:5rem;
+}
+
+
+#back-link{
+	color:#212529;
+}
+
+
+#back-txt{
+	margin: 0px;
+	padding-left: 4px;
+}
+
+
+#about{
+	margin-left: 2rem;
+	margin-right: 2rem;
+	margin-top: 5rem;
+	color: #212529;
+}
+
+#how-to-play{
+	margin-left: 2rem;
+	margin-right: 2rem;
+	margin-top: 3rem;
+	color: #212529;
+}
+
+.nes-container{
+	border-color: #FCEE21 !important;
+
+}
+
+.nes-container.with-title>.title {
+	background-color: #FCEE21 !important;
+}
+
+/* nivel1 */
+
+section{
+	font-family: 'Press Start 2P', cursive;
+}
+
+#game-over{
+	display: hidden;
+}
+
+.back-mapa{
+	float: right;
+    margin-right: 2rem;
+    margin-top: -4rem;
+    display: inline-flex;
+    position: relative;
+    width: 5rem;
+}
+
+/* loadingscreen  */
+.nes-progress{
+	width: 96% !important;
+}
+
+.loading-screen{
+	width: 100%;
+	bottom: 5%;
+	position: fixed;
+	text-align: center;
+}
+
+#loading{
+	float: left;
+	left: 2%;
+	bottom: 12%;
+	position: fixed;
+}
+
+#fact{
+	color: #212529;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	margin-top: 5rem;
+}
+
+.slide-top-personagem{animation:slide-top-personagem .5s cubic-bezier(.25,.46,.45,.94) infinite alternate-reverse both}
+@keyframes slide-top-personagem{0%{transform:translateY(0)}100%{transform:translateY(-30px)}}
+
+#personagem-slider{
+	max-width: 10%;
+	height: 10%;
+	position: fixed;
+	image-rendering: pixelated;
+}
+
+.loading-icons{
+	display: inline-flex;
+	text-align: center;
+	margin-left: auto;
+	position: fixed;
+	bottom: 25%;
+	float: right;
+	left: 90%;
+
+}
+
+#stain-slider{
+	max-width: 10%;
+	height: 10%;
+	position: fixed;
+	margin-left:3rem;
+	image-rendering: pixelated;
+}
+
+.slide-top{animation:slide-top .5s cubic-bezier(.25,.46,.45,.94) .2s infinite alternate-reverse both}
+@keyframes slide-top{0%{transform:translateY(0)}100%{transform:translateY(-30px)}}
+
+/* story */
+
+#mae-story{
+	max-width: 15%;
+	height: 15%;
+	position: absolute;
+	image-rendering: pixelated;
+}
+
+.from-left{
+	left: 7%;
+}
+
+.from-right{
+	right: 2px;
+}
+
+#dialogonarrador{
+	margin-left: 8%;
+	
+	margin-top: 10%;
+	color: #212529;
+}
+
+.message-list{
+	text-align: center;
+}
+
+#personagem-story{
+	max-width: 15%;
+	height: 15%;
+	position: absolute;
+	image-rendering: pixelated;
+}
+
+#pai-story{
+	max-width: 15%;
+	height: 15%;
+	position: absolute;
+	image-rendering: pixelated;
+}
+
+.back-story{
+	float: right;
+    margin-right: 2rem;
+    margin-top: -2rem;
+    display: inline-flex;
+    position: relative;
+    width: 5rem;
+}
+
+#mae-section{
+	display: block;
+}
+
+#vifican1-section{
+	display: block;
+}
+
+#pai-section{
+	display: block;
+}
+
+#vifican2-section{
+	display: block;
+}
+
+/* win_screen */
+
+#win{
+	text-align: center;
+}
+
+#personagem-win{
+	 max-width: 10%;
+	height: auto;
+	position: fixed;
+	top: 50%;
+	left: 44%;
+}
+
+.slide-top-personagem-win {
+	-webkit-animation: slide-top 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate-reverse both;
+	        animation: slide-top 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate-reverse both;
+}
+
+@-webkit-keyframes slide-top-personagem-win {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+}
+@keyframes slide-top-personagem-win {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+}
+
+#trophy{
+	position: fixed;
+	top: 30%;
+	left: 50%;
+	margin-left: -47px;
+}
+
+#stan-direita{
+	max-width: 10%;
+	height: auto;
+	position: fixed;
+	top: 57%;
+	left: 53%;
+	image-rendering: pixelated;
+	transform: rotate(90deg);
+}
+
+#mae-win{
+	max-width: 6%;
+	height: auto;
+	position: fixed;
+	top: 48%;
+	left: 40%;
+	image-rendering: pixelated;
+}
+
+#pai-win{
+	max-width: 6%;
+	height: auto;
+	position: fixed;
+	top: 48%;
+	left: 36%;
+	image-rendering: pixelated;
+}
+
+#imagens-win{
+	text-align: center;
+}
+
+#win-buttons{
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	top: 80%;
+	position: fixed;
+}
+
+#play-again{
+	padding-right: 4rem;
+}
+
+#main-menu-win{
+	padding-left: 3rem;
+}
+
+
+/* how to play */
+
+.back-howtoplay{
+	float: right;
+    margin-right: 2rem;
+    margin-top: -2rem;
+    display: inline-flex;
+    position: relative;
+    width: 5rem;
+}
+#keyboard{
+	max-width: 15%;
+	height: auto;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	 
+}
+
+/* About */
+#grupo-img{
+	max-width: 15%;
+	height: auto;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	transform: rotate(-90deg);
+}

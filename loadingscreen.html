@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title>Loading...</title>
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	    <!-- Styles -->
+	    <link href="css/estilos.css" rel="stylesheet" type="text/css" media="screen"/>
+	    <script src="https://kit.fontawesome.com/06a59a4e61.js" crossorigin="anonymous"></script>
+			    <!-- minify -->
+		<link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
+		<!-- latest -->
+		<link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+		<!-- core style only -->
+		<link href="https://unpkg.com/nes.css/css/nes-core.min.css" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div id="fact" class="nes-container with-title">
+			<span class="title">Microplastics fact</span>
+			<p></p>
+		</div>
+		<div class="loading-icons">
+			<img src="imgs/personagem.png" id="personagem-slider" class="slide-top-personagem" alt="">
+			<img src="imgs/omesmomau.png" id="stain-slider" class="slide-top" alt="">
+		</div>
+		
+		<div class="loading-screen">
+			<p id="loading">Loading...</p>
+			<progress id="progress" class="nes-progress is-warning" value="0" max="100"></progress>
+		</div>
+	</body>
+</html>
+
+<script src="loading.js"></script>
